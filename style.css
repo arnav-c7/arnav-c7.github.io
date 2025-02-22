@@ -10,6 +10,11 @@ body{
     background-color: white;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 20px;
+}
+.navbar a{
+    font-size: large;
+    text-decoration: none;
 }
 
 .home-content-div{

@@ -36,3 +36,8 @@ body{
 .facts-contents-div li{
     font-size: large;
 }
+
+.gallery-content{
+    display:flex
+    justify-content
+}

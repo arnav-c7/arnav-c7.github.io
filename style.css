@@ -3,17 +3,20 @@ body{
 }
 
 .home-page{
-    background-color: rgb(218, 238, 245);
+    background-color: skyblue;
 }
-
 .facts-page{
-    background-color: blueviolet;
+    background-color: lightpink;
+}
+.gallery-page{
+    background-color: lightseagreen;
 }
 .navbar{
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .navbar a{
     font-size: large;
@@ -22,22 +25,33 @@ body{
 
 .home-content-div{
     text-align: center;
-    font-family: 'Franklin Gothic Light';
 }
 .home-content-div p{
-    font-size: medium;
+    font-size: small;
 }
 
-.facts-contents-div{
+.facts-content-div{
     margin-left: 10%;
-    font-size: large;
 }
 
-.facts-contents-div li{
-    font-size: large;
+.facts-content-div li{
+    font-size:large;
 }
 
 .gallery-content{
-    display:flex
-    justify-content
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-content button {
+    border-radius: 30%;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(170, 168, 168);
+    border-color: black;
+    border: none;
+    font-weight: bold;
+    font-size: x-large;
+    height: 1%;
 }
